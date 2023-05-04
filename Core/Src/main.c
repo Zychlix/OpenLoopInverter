@@ -103,13 +103,13 @@ int main(void)
     inv.poles_high[1].channel = TIM_CHANNEL_2;
 
     inv.poles_high[2].timer_handler = &htim1;
-    inv.poles_high[2].channel = TIM_CHANNEL_3;
+    inv.poles_high[2].channel = TIM_CHANNEL_4;
 
     inv.poles_low[0].timer_handler = &htim2;
-    inv.poles_low[0].channel = TIM_CHANNEL_1;
+    inv.poles_low[0].channel = TIM_CHANNEL_2;
 
     inv.poles_low[1].timer_handler = &htim2;
-    inv.poles_low[1].channel = TIM_CHANNEL_2;
+    inv.poles_low[1].channel = TIM_CHANNEL_3;
 
     inv.poles_low[2].timer_handler = &htim2;
     inv.poles_low[2].channel = TIM_CHANNEL_4;
@@ -128,9 +128,12 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 //    inv.high_side_pulse[0] = i %1000;
+    htim1.Instance->CNT=0;
+    htim2.Instance->CNT=0;
       for (int j = 0; j<3; j++)
       {
           inv.poles_high[j].width = i% 1000;
+          inv.poles_low[j].width = i% 1000;
 
       }
       set_pulses(&inv);
@@ -213,7 +216,7 @@ static void MX_TIM1_Init(void)
   htim1.Instance = TIM1;
   htim1.Init.Prescaler = 0;
   htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim1.Init.Period = 1000;
+  htim1.Init.Period = 5000;
   htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim1.Init.RepetitionCounter = 0;
   htim1.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
@@ -243,7 +246,7 @@ static void MX_TIM1_Init(void)
   {
     Error_Handler();
   }
-  if (HAL_TIM_PWM_ConfigChannel(&htim1, &sConfigOC, TIM_CHANNEL_3) != HAL_OK)
+  if (HAL_TIM_PWM_ConfigChannel(&htim1, &sConfigOC, TIM_CHANNEL_4) != HAL_OK)
   {
     Error_Handler();
   }
@@ -290,7 +293,7 @@ static void MX_TIM2_Init(void)
   htim2.Instance = TIM2;
   htim2.Init.Prescaler = 0;
   htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim2.Init.Period = 1000;
+  htim2.Init.Period = 5000;
   htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
   if (HAL_TIM_PWM_Init(&htim2) != HAL_OK)
@@ -307,11 +310,11 @@ static void MX_TIM2_Init(void)
   sConfigOC.Pulse = 0;
   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
-  if (HAL_TIM_PWM_ConfigChannel(&htim2, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  if (HAL_TIM_PWM_ConfigChannel(&htim2, &sConfigOC, TIM_CHANNEL_2) != HAL_OK)
   {
     Error_Handler();
   }
-  if (HAL_TIM_PWM_ConfigChannel(&htim2, &sConfigOC, TIM_CHANNEL_2) != HAL_OK)
+  if (HAL_TIM_PWM_ConfigChannel(&htim2, &sConfigOC, TIM_CHANNEL_3) != HAL_OK)
   {
     Error_Handler();
   }

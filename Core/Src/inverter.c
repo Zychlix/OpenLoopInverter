@@ -18,18 +18,15 @@ void inv_init(inverter_t * inverter)
 
     for(int i = 0 ; i< 3; i++)
     {
-        HAL_TIM_PWM_ConfigChannel(inverter->poles_high[i].timer_handler,&inverter->oc_config,inverter->poles_low[i].channel);
-        HAL_TIM_PWM_Start(inverter->poles_high[i].timer_handler,inverter->poles_low[i].channel);
+        HAL_TIM_PWM_ConfigChannel(inverter->poles_high[i].timer_handler,&inverter->oc_config,inverter->poles_high[i].channel);
+        HAL_TIM_PWM_Start(inverter->poles_high[i].timer_handler,inverter->poles_high[i].channel);
     }
 
     for(int i = 0 ; i< 3; i++)
     {
         HAL_TIM_PWM_ConfigChannel(inverter->poles_low[i].timer_handler,&inverter->oc_config,inverter->poles_low[i].channel);
+        HAL_TIM_PWM_Start(inverter->poles_low[i].timer_handler,inverter->poles_low[i].channel);
     }
-
-//   HAL_TIM_PWM_Start(inverter->high_side_timer,TIM_CHANNEL_1);
-//    HAL_TIM_PWM_Start(inverter->high_side_timer,TIM_CHANNEL_2);
-//    HAL_TIM_PWM_Start(inverter->high_side_timer,TIM_CHANNEL_3);
 
 
 }
