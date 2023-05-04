@@ -3,7 +3,7 @@
 #include "stm32l4xx_hal.h"
 
 #define INV_PRESCALER 0
-#define INV_MAX_PWM_PULSE_VAL 1000
+#define INV_MAX_PWM_PULSE_VAL 5000
 
 typedef struct POLE
 {
@@ -31,3 +31,5 @@ typedef struct INVERTER
 void inv_init(inverter_t * inverter);
 
 void set_pulses(inverter_t *  inverter);
+
+void inv_set_power(inverter_t* inverter, uint8_t phase_number, int32_t power); //-+ 1000 is the way to go

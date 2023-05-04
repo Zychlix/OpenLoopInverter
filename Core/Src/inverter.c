@@ -56,3 +56,25 @@ void set_pulses(inverter_t *  inverter)
 
 
 }
+
+void inv_set_power(inverter_t* inverter, uint8_t phase_number, int32_t power)
+{
+    if(phase_number>2)
+    {
+        return;
+    }
+    if(power>=0)
+    {
+        inverter->poles_low[phase_number].width =0;
+        //set_pulses(inverter);
+        inverter->poles_high[phase_number].width = (uint16_t )power*INV_MAX_PWM_PULSE_VAL/1000;
+    } else
+    {
+        inverter->poles_high[phase_number].width = 0;
+        //set_pulses(inverter);
+        power = -power;
+        inverter->poles_low[phase_number].width = (uint16_t )power*INV_MAX_PWM_PULSE_VAL/1000;
+    }
+    set_pulses(inverter);
+
+}

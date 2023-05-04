@@ -22,6 +22,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "inverter.h"
+#include "math.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -121,22 +122,27 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  uint16_t i =0;
-  while (1)
-  {
-    /* USER CODE END WHILE */
-
-    /* USER CODE BEGIN 3 */
-//    inv.high_side_pulse[0] = i %1000;
+    uint16_t i =0;
     htim1.Instance->CNT=0;
     htim2.Instance->CNT=0;
-      for (int j = 0; j<3; j++)
-      {
-          inv.poles_high[j].width = i% 1000;
-          inv.poles_low[j].width = i% 1000;
+    while (1)
+  {
+      /* USER CODE END WHILE */
 
-      }
-      set_pulses(&inv);
+      /* USER CODE BEGIN 3 */
+//    inv.high_side_pulse[0] = i %1000;
+
+
+    double time = 3.1415*i/500.f;
+
+        double power;
+        double multiplier = 700;
+      power = multiplier*sin(time);
+          inv_set_power(&inv,0,power);
+      power = multiplier*sin(time+3.1415*2/3);
+          inv_set_power(&inv,1,power);
+      power = multiplier*sin(time+3.1415*4/3);
+          inv_set_power(&inv,2,power);
 
       HAL_Delay(10);
       i++;
