@@ -33,5 +33,9 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: \
  /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
  /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
  /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+ /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+ /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
  /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
- /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+ /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+ /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+ /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h

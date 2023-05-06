@@ -35,8 +35,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj: ../Core/Src/inverte
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c \
   ../Core/Inc/main.h \
@@ -72,8 +76,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
   ../Core/Inc/inverter.h \
   /usr/arm-none-eabi/include/math.h \
   /usr/arm-none-eabi/include/sys/reent.h \
@@ -85,7 +93,14 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c \
   /usr/arm-none-eabi/include/machine/_types.h \
   /usr/arm-none-eabi/include/sys/lock.h \
   /usr/arm-none-eabi/include/sys/cdefs.h \
-  /usr/arm-none-eabi/include/_ansi.h
+  /usr/arm-none-eabi/include/_ansi.h \
+  /usr/arm-none-eabi/include/string.h \
+  /usr/arm-none-eabi/include/sys/_locale.h \
+  /usr/arm-none-eabi/include/strings.h \
+  /usr/arm-none-eabi/include/sys/string.h \
+  /usr/arm-none-eabi/include/stdio.h \
+  /usr/lib/gcc/arm-none-eabi/12.2.0/include/stdarg.h \
+  /usr/arm-none-eabi/include/sys/stdio.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: ../Core/Src/stm32l4xx_hal_msp.c \
   ../Core/Inc/main.h \
@@ -121,8 +136,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: ../Core/Sr
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_it.c.obj: ../Core/Src/stm32l4xx_it.c \
   ../Core/Inc/main.h \
@@ -158,8 +177,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_it.c.obj: ../Core/Src/stm
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
   ../Core/Inc/stm32l4xx_it.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c \
@@ -263,8 +286,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/system_stm32l4xx.c.obj: ../Core/Src
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
@@ -299,8 +326,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
@@ -335,8 +366,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
@@ -371,8 +406,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
@@ -407,8 +446,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
@@ -443,8 +486,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
@@ -479,8 +526,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
@@ -515,8 +566,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
@@ -551,8 +606,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
@@ -587,8 +646,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
@@ -623,8 +686,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
@@ -659,8 +726,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
@@ -695,8 +766,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
@@ -731,8 +806,92 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
+
+CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
+  ../Core/Inc/stm32l4xx_hal_conf.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h \
+  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h \
+  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l432xx.h \
+  ../Drivers/CMSIS/Include/core_cm4.h \
+  /usr/lib/gcc/arm-none-eabi/12.2.0/include/stdint.h \
+  /usr/arm-none-eabi/include/stdint.h \
+  /usr/arm-none-eabi/include/machine/_default_types.h \
+  /usr/arm-none-eabi/include/sys/features.h \
+  /usr/arm-none-eabi/include/_newlib_version.h \
+  /usr/arm-none-eabi/include/sys/_intsup.h \
+  /usr/arm-none-eabi/include/sys/_stdint.h \
+  ../Drivers/CMSIS/Include/cmsis_version.h \
+  ../Drivers/CMSIS/Include/cmsis_compiler.h \
+  ../Drivers/CMSIS/Include/cmsis_gcc.h \
+  ../Drivers/CMSIS/Include/mpu_armv7.h \
+  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  /usr/lib/gcc/arm-none-eabi/12.2.0/include/stddef.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
+
+CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
+  ../Core/Inc/stm32l4xx_hal_conf.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h \
+  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h \
+  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l432xx.h \
+  ../Drivers/CMSIS/Include/core_cm4.h \
+  /usr/lib/gcc/arm-none-eabi/12.2.0/include/stdint.h \
+  /usr/arm-none-eabi/include/stdint.h \
+  /usr/arm-none-eabi/include/machine/_default_types.h \
+  /usr/arm-none-eabi/include/sys/features.h \
+  /usr/arm-none-eabi/include/_newlib_version.h \
+  /usr/arm-none-eabi/include/sys/_intsup.h \
+  /usr/arm-none-eabi/include/sys/_stdint.h \
+  ../Drivers/CMSIS/Include/cmsis_version.h \
+  ../Drivers/CMSIS/Include/cmsis_compiler.h \
+  ../Drivers/CMSIS/Include/cmsis_gcc.h \
+  ../Drivers/CMSIS/Include/mpu_armv7.h \
+  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  /usr/lib/gcc/arm-none-eabi/12.2.0/include/stddef.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
@@ -767,8 +926,12 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
@@ -803,11 +966,111 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
   ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
-  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
+CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
+  ../Core/Inc/stm32l4xx_hal_conf.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h \
+  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h \
+  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l432xx.h \
+  ../Drivers/CMSIS/Include/core_cm4.h \
+  /usr/lib/gcc/arm-none-eabi/12.2.0/include/stdint.h \
+  /usr/arm-none-eabi/include/stdint.h \
+  /usr/arm-none-eabi/include/machine/_default_types.h \
+  /usr/arm-none-eabi/include/sys/features.h \
+  /usr/arm-none-eabi/include/_newlib_version.h \
+  /usr/arm-none-eabi/include/sys/_intsup.h \
+  /usr/arm-none-eabi/include/sys/_stdint.h \
+  ../Drivers/CMSIS/Include/cmsis_version.h \
+  ../Drivers/CMSIS/Include/cmsis_compiler.h \
+  ../Drivers/CMSIS/Include/cmsis_gcc.h \
+  ../Drivers/CMSIS/Include/mpu_armv7.h \
+  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  /usr/lib/gcc/arm-none-eabi/12.2.0/include/stddef.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
+
+CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
+  ../Core/Inc/stm32l4xx_hal_conf.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h \
+  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h \
+  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l432xx.h \
+  ../Drivers/CMSIS/Include/core_cm4.h \
+  /usr/lib/gcc/arm-none-eabi/12.2.0/include/stdint.h \
+  /usr/arm-none-eabi/include/stdint.h \
+  /usr/arm-none-eabi/include/machine/_default_types.h \
+  /usr/arm-none-eabi/include/sys/features.h \
+  /usr/arm-none-eabi/include/_newlib_version.h \
+  /usr/arm-none-eabi/include/sys/_intsup.h \
+  /usr/arm-none-eabi/include/sys/_stdint.h \
+  ../Drivers/CMSIS/Include/cmsis_version.h \
+  ../Drivers/CMSIS/Include/cmsis_compiler.h \
+  ../Drivers/CMSIS/Include/cmsis_gcc.h \
+  ../Drivers/CMSIS/Include/mpu_armv7.h \
+  ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  /usr/lib/gcc/arm-none-eabi/12.2.0/include/stddef.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ramfunc.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
+  ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
+
+
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c:
+
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c:
 
 ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c:
+
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c:
+
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c:
+
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c:
+
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c:
+
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:
+
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c:
 
 /usr/arm-none-eabi/include/sys/reent.h:
 
@@ -815,9 +1078,17 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h:
 
-../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c:
-
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h:
+
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h:
+
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h:
+
+/usr/lib/gcc/arm-none-eabi/12.2.0/include/stdarg.h:
+
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c:
+
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h:
 
 /usr/arm-none-eabi/include/newlib.h:
 
@@ -825,7 +1096,15 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h:
 
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
+
+/usr/arm-none-eabi/include/math.h:
+
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c:
+
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h:
+
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:
 
 /usr/arm-none-eabi/include/stdint.h:
 
@@ -843,13 +1122,11 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 
 ../Core/Src/main.c:
 
-/usr/arm-none-eabi/include/alloca.h:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h:
 
 /usr/arm-none-eabi/include/sys/_intsup.h:
 
 ../Drivers/CMSIS/Include/mpu_armv7.h:
-
-/usr/arm-none-eabi/include/machine/_types.h:
 
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h:
 
@@ -861,9 +1138,9 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 
 ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c:
 
-/usr/arm-none-eabi/include/sys/_types.h:
+/usr/arm-none-eabi/include/sys/signal.h:
 
-../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h:
 
@@ -873,17 +1150,11 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 
 ../Core/Inc/stm32l4xx_hal_conf.h:
 
-/usr/arm-none-eabi/include/machine/ieeefp.h:
-
 ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
 
 ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h:
 
 ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l432xx.h:
-
-../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h:
-
-/usr/lib/gcc/arm-none-eabi/12.2.0/include/stdarg.h:
 
 /usr/arm-none-eabi/include/_newlib_version.h:
 
@@ -895,12 +1166,6 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 
 ../Drivers/CMSIS/Include/cmsis_gcc.h:
 
-/usr/arm-none-eabi/include/sys/errno.h:
-
-../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c:
-
-../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h:
-
 ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h:
 
 /usr/arm-none-eabi/include/sys/_timeval.h:
@@ -909,7 +1174,35 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 
 ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h:
 
+/usr/arm-none-eabi/include/sys/errno.h:
+
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h:
+
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c:
+
+/usr/arm-none-eabi/include/machine/ieeefp.h:
+
+/usr/arm-none-eabi/include/sys/_types.h:
+
+/usr/arm-none-eabi/include/machine/_types.h:
+
 /usr/arm-none-eabi/include/sys/cdefs.h:
+
+/usr/arm-none-eabi/include/string.h:
+
+../Drivers/CMSIS/Include/core_cm4.h:
+
+/usr/arm-none-eabi/include/sys/_locale.h:
+
+/usr/arm-none-eabi/include/stdio.h:
+
+/usr/arm-none-eabi/include/strings.h:
+
+/usr/arm-none-eabi/include/alloca.h:
+
+/usr/arm-none-eabi/include/sys/string.h:
+
+/usr/arm-none-eabi/include/sys/stdio.h:
 
 ../Core/Src/stm32l4xx_hal_msp.c:
 
@@ -917,15 +1210,9 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 
 /usr/arm-none-eabi/include/machine/stdlib.h:
 
-../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h:
-
-../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c:
-
 ../Core/Src/stm32l4xx_it.c:
 
 /usr/arm-none-eabi/include/sys/time.h:
-
-../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c:
 
 ../Core/Inc/stm32l4xx_it.h:
 
@@ -953,11 +1240,9 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 
 /usr/arm-none-eabi/include/sys/_pthreadtypes.h:
 
-../Drivers/CMSIS/Include/core_cm4.h:
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c:
 
-/usr/arm-none-eabi/include/sys/_locale.h:
-
-/usr/arm-none-eabi/include/stdio.h:
+/usr/arm-none-eabi/include/sys/sched.h:
 
 /usr/arm-none-eabi/include/machine/_default_types.h:
 
@@ -965,17 +1250,11 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 
 /usr/arm-none-eabi/include/stdlib.h:
 
-/usr/arm-none-eabi/include/sys/stdio.h:
-
-../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
-
-/usr/arm-none-eabi/include/sys/signal.h:
-
-/usr/arm-none-eabi/include/math.h:
-
-../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c:
-
 /usr/arm-none-eabi/include/machine/_time.h:
+
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:
+
+/usr/arm-none-eabi/include/sys/times.h:
 
 ../Core/Src/sysmem.c:
 
@@ -987,16 +1266,6 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 
 ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c:
 
-/usr/arm-none-eabi/include/sys/times.h:
-
-../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:
-
 ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c:
 
 ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c:
-
-../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c:
-
-/usr/arm-none-eabi/include/sys/sched.h:
-
-../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c:

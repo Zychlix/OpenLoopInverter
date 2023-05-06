@@ -270,10 +270,22 @@
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h">
 			<Option target="OpenLoopInverter.elf"/>
 		</Unit>
+		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h">
+			<Option target="OpenLoopInverter.elf"/>
+		</Unit>
+		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi_ex.h">
+			<Option target="OpenLoopInverter.elf"/>
+		</Unit>
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h">
 			<Option target="OpenLoopInverter.elf"/>
 		</Unit>
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h">
+			<Option target="OpenLoopInverter.elf"/>
+		</Unit>
+		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h">
+			<Option target="OpenLoopInverter.elf"/>
+		</Unit>
+		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h">
 			<Option target="OpenLoopInverter.elf"/>
 		</Unit>
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h">
@@ -297,6 +309,9 @@
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h">
 			<Option target="OpenLoopInverter.elf"/>
 		</Unit>
+		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_lpuart.h">
+			<Option target="OpenLoopInverter.elf"/>
+		</Unit>
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h">
 			<Option target="OpenLoopInverter.elf"/>
 		</Unit>
@@ -307,6 +322,9 @@
 			<Option target="OpenLoopInverter.elf"/>
 		</Unit>
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h">
+			<Option target="OpenLoopInverter.elf"/>
+		</Unit>
+		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_usart.h">
 			<Option target="OpenLoopInverter.elf"/>
 		</Unit>
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h">
@@ -357,10 +375,22 @@
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c">
 			<Option target="OpenLoopInverter.elf"/>
 		</Unit>
+		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c">
+			<Option target="OpenLoopInverter.elf"/>
+		</Unit>
+		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c">
+			<Option target="OpenLoopInverter.elf"/>
+		</Unit>
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c">
 			<Option target="OpenLoopInverter.elf"/>
 		</Unit>
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c">
+			<Option target="OpenLoopInverter.elf"/>
+		</Unit>
+		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c">
+			<Option target="OpenLoopInverter.elf"/>
+		</Unit>
+		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c">
 			<Option target="OpenLoopInverter.elf"/>
 		</Unit>
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/STM32L432KCUX_FLASH.ld">
