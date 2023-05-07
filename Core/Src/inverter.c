@@ -18,9 +18,9 @@ void inv_init(inverter_t * inverter)
 
     for(int i = 0 ; i< 3; i++)
     {
-        HAL_TIM_PWM_ConfigChannel(inverter->poles_high[i].timer_handler,&inverter->oc_config,inverter->poles_high[i].channel);
-        HAL_TIM_PWM_Start(inverter->poles_high[i].timer_handler,inverter->poles_high[i].channel);
-        HAL_TIMEx_PWMN_Start(inverter->poles_high[i].timer_handler,inverter->poles_high[i].channel);
+        HAL_TIM_PWM_ConfigChannel(inverter->poles[i].timer_handler, &inverter->oc_config, inverter->poles[i].channel);
+        HAL_TIM_PWM_Start(inverter->poles[i].timer_handler, inverter->poles[i].channel);
+        HAL_TIMEx_PWMN_Start(inverter->poles[i].timer_handler, inverter->poles[i].channel);
 
     }
 
@@ -31,7 +31,7 @@ void set_pulses(inverter_t *  inverter)
 {
     for(int i = 0 ; i< 3; i++)
     {
-        __HAL_TIM_SET_COMPARE(inverter->poles_high[i].timer_handler,inverter->poles_high[i].channel,inverter->poles_high[i].width);
+        __HAL_TIM_SET_COMPARE(inverter->poles[i].timer_handler, inverter->poles[i].channel, inverter->poles[i].width);
 
     }
 
@@ -55,7 +55,7 @@ void inv_set_power(inverter_t* inverter, uint8_t phase_number, int32_t power)
         return;
     }
 
-        inverter->poles_high[phase_number].width = (1000+power)/2*INV_MAX_PWM_PULSE_VAL/1000;
+        inverter->poles[phase_number].width = (1000 + power) / 2 * INV_MAX_PWM_PULSE_VAL / 1000;
 
     set_pulses(inverter);
 

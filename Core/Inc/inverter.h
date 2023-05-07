@@ -17,8 +17,8 @@ typedef struct INVERTER
     TIM_OC_InitTypeDef oc_config;
 
 
-    pole_t poles_high[3];
-    pole_t poles_low[3];
+    pole_t poles[3];
+
 
 
 

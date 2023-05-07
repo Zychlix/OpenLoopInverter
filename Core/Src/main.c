@@ -69,6 +69,8 @@ static void MX_TIM6_Init(void);
 /* USER CODE BEGIN 0 */
 volatile inverter_t inv={0};
 volatile int i=0;
+volatile uint16_t pos=0;
+volatile int counter =0;
 /* USER CODE END 0 */
 
 /**
@@ -108,14 +110,14 @@ int main(void)
 
 
 //
-    inv.poles_high[0].timer_handler = &htim1;
-    inv.poles_high[0].channel = TIM_CHANNEL_1;
+    inv.poles[0].timer_handler = &htim1;
+    inv.poles[0].channel = TIM_CHANNEL_1;
 
-    inv.poles_high[1].timer_handler = &htim1;
-    inv.poles_high[1].channel = TIM_CHANNEL_2;
+    inv.poles[1].timer_handler = &htim1;
+    inv.poles[1].channel = TIM_CHANNEL_2;
 
-    inv.poles_high[2].timer_handler = &htim1;
-    inv.poles_high[2].channel = TIM_CHANNEL_3;
+    inv.poles[2].timer_handler = &htim1;
+    inv.poles[2].channel = TIM_CHANNEL_3;
 
 
     //
@@ -138,6 +140,13 @@ int main(void)
     while (1)
   {
     /* USER CODE END WHILE */
+      printf("Odczyt pos: %d\r\n", pos);
+      uint8_t data;
+      if(HAL_UART_Receive(&huart2,&data,1,10) == HAL_OK)
+      {
+          if(data == 'w')  counter++;
+      }
+      HAL_Delay(10);
 
     /* USER CODE BEGIN 3 */
 
@@ -432,8 +441,10 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 
     uint8_t data[2];
 
-    double time = 2*3.1415*i/100.f/2.5; //10Hz /4/5?
-
+    double time = 2*3.1415*i/1000.f; //10Hz /4/5?
+//    double angle = counter*2*M_PI/10;
+    double angle = (0-2100)*2*3.1415/4096;
+    time = angle;
     double power;
     double multiplier = 150;
     power = multiplier*sin(time);;
@@ -450,8 +461,8 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     //HAL_Delay(1);
     HAL_SPI_Receive(&hspi3,&data,2,10);
     HAL_GPIO_WritePin(RD_GPIO_Port,RD_Pin,1);
-    uint16_t pos = ((data[1]<<8)|(data[0]&0b11110000))>>4;
-    printf("Odczyt a: %d b: %d  pos: %d\r\n", data[0], data[1], pos);
+    pos = ((data[1]<<8)|(data[0]&0b11110000))>>4;
+
 
 
     i++;
