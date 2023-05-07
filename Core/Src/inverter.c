@@ -60,3 +60,17 @@ void inv_set_power(inverter_t* inverter, uint8_t phase_number, int32_t power)
     set_pulses(inverter);
 
 }
+
+
+void inv_voltage_vector_apply(inverter_t * inverter, vector_t * vector)
+{
+    int32_t power = 300;
+    uint16_t pwm;
+
+    pwm = (uint16_t)(power*sin(vector->argument));
+    inv_set_power(inverter,0,pwm);
+    pwm = ((uint16_t)power*sin(vector->argument)+3.1415*2/3);
+    inv_set_power(inverter,1,pwm);
+    pwm = ((uint16_t)power*sin(vector->argument)+3.1415*4/3);
+    inv_set_power(inverter,2,pwm);
+}

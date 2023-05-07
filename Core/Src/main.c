@@ -443,16 +443,16 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 
     double time = 2*3.1415*i/1000.f; //10Hz /4/5?
 //    double angle = counter*2*M_PI/10;
-    double angle = (0-2100)*2*3.1415/4096;
-    time = angle;
+//    double angle = (0-2100)*2*3.1415/4096;
+//    time = angle;
     double power;
     double multiplier = 150;
-    power = multiplier*sin(time);;
-    inv_set_power(&inv,0,power);
-    power = multiplier*sin(time+3.1415*2/3);
-    inv_set_power(&inv,1,power);
-    power = multiplier*sin(time+3.1415*4/3);
-    inv_set_power(&inv,2,power);
+    vector_t vec;
+
+    vec.argument = time;
+    vec.value =1.f;
+
+    inv_voltage_vector_apply(&inv,&vec);
 
 
     HAL_GPIO_WritePin(RD_GPIO_Port,RD_Pin,0);

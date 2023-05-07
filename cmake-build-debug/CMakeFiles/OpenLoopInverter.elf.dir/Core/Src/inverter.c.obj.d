@@ -38,4 +38,13 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj: \
  /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
  /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
  /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
- /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
+ /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
+ /usr/arm-none-eabi/include/math.h /usr/arm-none-eabi/include/sys/reent.h \
+ /usr/arm-none-eabi/include/_ansi.h /usr/arm-none-eabi/include/newlib.h \
+ /usr/arm-none-eabi/include/sys/config.h \
+ /usr/arm-none-eabi/include/machine/ieeefp.h \
+ /usr/arm-none-eabi/include/sys/_types.h \
+ /usr/arm-none-eabi/include/machine/_types.h \
+ /usr/arm-none-eabi/include/sys/lock.h \
+ /usr/arm-none-eabi/include/sys/cdefs.h \
+ /usr/arm-none-eabi/include/_ansi.h
