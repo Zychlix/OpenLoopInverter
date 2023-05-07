@@ -35,17 +35,6 @@ void set_pulses(inverter_t *  inverter)
 
     }
 
-//   inverter->high_side_timer->Instance->CCR1 = inverter->high_side_pulse[0];
-//    inverter->high_side_timer->Instance->CCR2 = inverter->high_side_pulse[1];
-//    inverter->high_side_timer->Instance->CCR3 = inverter->high_side_pulse[2];
-
-//    inverter->oc_config.Pulse = inverter->high_side_pulse[1];
-//   // HAL_TIM_PWM_ConfigChannel(&inverter->high_side_timer, &inverter->oc_config, TIM_CHANNEL_2); //Change those tim channels!
-//
-//    inverter->oc_config.Pulse = inverter->high_side_pulse[2];
-//    //HAL_TIM_PWM_ConfigChannel(&inverter->high_side_timer, &inverter->oc_config, TIM_CHANNEL_3); //Change those tim channels!
-
-
 }
 
 void inv_set_power(inverter_t* inverter, uint8_t phase_number, int32_t power)
@@ -64,13 +53,13 @@ void inv_set_power(inverter_t* inverter, uint8_t phase_number, int32_t power)
 
 void inv_voltage_vector_apply(inverter_t * inverter, vector_t * vector)
 {
-    int32_t power = 300;
-    uint16_t pwm;
+    uint32_t power = 300;
+    uint32_t pwm;
 
     pwm = (uint16_t)(power*sin(vector->argument));
     inv_set_power(inverter,0,pwm);
-    pwm = ((uint16_t)power*sin(vector->argument)+3.1415*2/3);
+    pwm = ((uint16_t)power*sin(vector->argument+3.1415*2/3));
     inv_set_power(inverter,1,pwm);
-    pwm = ((uint16_t)power*sin(vector->argument)+3.1415*4/3);
+    pwm = ((uint16_t)power*sin(vector->argument+3.1415*4/3));
     inv_set_power(inverter,2,pwm);
 }

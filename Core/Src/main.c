@@ -441,7 +441,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 
     uint8_t data[2];
 
-    double time = 2*3.1415*i/1000.f; //10Hz /4/5?
+    double time = 2*3.1415*i/200.f; //10Hz /4/5?
 //    double angle = counter*2*M_PI/10;
 //    double angle = (0-2100)*2*3.1415/4096;
 //    time = angle;
