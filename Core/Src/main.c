@@ -118,6 +118,7 @@ int main(void)
 
     inv.poles[2].timer_handler = &htim1;
     inv.poles[2].channel = TIM_CHANNEL_3;
+    inv.resolver.spi_handler = &hspi3;
 
 
     //
@@ -140,7 +141,7 @@ int main(void)
     while (1)
   {
     /* USER CODE END WHILE */
-      printf("Odczyt pos: %d\r\n", pos);
+      printf("Odczyt pos: %d\r\n vel: %d \r\n", inv.resolver.position, inv.resolver.speed);
       uint8_t data;
       if(HAL_UART_Receive(&huart2,&data,1,10) == HAL_OK)
       {
@@ -441,27 +442,15 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 
     uint8_t data[2];
 
-    double time = 2*3.1415*i/200.f; //10Hz /4/5?
-//    double angle = counter*2*M_PI/10;
-//    double angle = (0-2100)*2*3.1415/4096;
-//    time = angle;
-    double power;
-    double multiplier = 150;
-    vector_t vec;
-
-    vec.argument = time;
-    vec.value =1.f;
-
-    inv_voltage_vector_apply(&inv,&vec);
+    double time = -2*3.1415*i/400.f; //10Hz /4/5?
 
 
-    HAL_GPIO_WritePin(RD_GPIO_Port,RD_Pin,0);
-    HAL_GPIO_WritePin(SAMPLE_GPIO_Port,SAMPLE_Pin,0);
+    inv.voltage_vector.argument = time;
+    inv.voltage_vector.value =1.f;
 
-    //HAL_Delay(1);
-    HAL_SPI_Receive(&hspi3,&data,2,10);
-    HAL_GPIO_WritePin(RD_GPIO_Port,RD_Pin,1);
-    pos = ((data[1]<<8)|(data[0]&0b11110000))>>4;
+    inv_voltage_vector_apply(&inv,&inv.voltage_vector);
+
+    res_read_position(&inv.resolver);
 
 
 
