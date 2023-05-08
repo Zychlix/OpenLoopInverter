@@ -79,12 +79,12 @@ void res_read_position(resolver_t * res)
     HAL_GPIO_WritePin(RD_RES_PORT,RD_RES_PIN,1);
     uint16_t pos = ((data[1]<<8)|(data[0]&0b11110000))>>4;
     res->position = pos;
-    HAL_GPIO_WritePin(RDVEL_GPIO_Port,RDVEL_RES_PIN,0);
-    HAL_GPIO_WritePin(RD_RES_PORT,RD_RES_PIN,0);
-    HAL_SPI_Receive(res->spi_handler,&data,2,10);
-    uint16_t speed = ((data[1]<<8)|(data[0]&0b11110000))>>4&0b11111111111;
-    if()
-    res->speed=speed;
-    HAL_GPIO_WritePin(RD_RES_PORT,RD_RES_PIN,1);
+//    HAL_GPIO_WritePin(RDVEL_GPIO_Port,RDVEL_RES_PIN,0);
+//    HAL_GPIO_WritePin(RD_RES_PORT,RD_RES_PIN,0);
+//    //HAL_SPI_Receive(res->spi_handler,&data,2,10);
+//    uint16_t speed = ((data[1]<<8)|(data[0]&0b11110000))>>4&0b11111111111;
+//
+//    res->speed=speed;
+//    HAL_GPIO_WritePin(RD_RES_PORT,RD_RES_PIN,1);
 
 }

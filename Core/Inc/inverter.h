@@ -27,6 +27,7 @@ typedef struct RESOLVER
     uint32_t spi_handler;
     uint32_t  position;
     int32_t  speed;
+    vector_t vector;
 
 } resolver_t;
 
