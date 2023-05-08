@@ -34,7 +34,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+double time;
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -135,19 +135,14 @@ int main(void)
     HAL_NVIC_EnableIRQ(TIM6_IRQn);
     HAL_TIM_Base_Start_IT(&htim6);
 
+
+
 //    HAL_TIM_Base_Start(&htim6);
 //htim6.Instance.
 
     while (1)
   {
     /* USER CODE END WHILE */
-      printf("Odczyt pos: %d\r\n vel: %d \r\n", inv.resolver.position, inv.resolver.speed);
-      uint8_t data;
-      if(HAL_UART_Receive(&huart2,&data,1,10) == HAL_OK)
-      {
-          if(data == 'w')  counter++;
-      }
-      HAL_Delay(10);
 
     /* USER CODE BEGIN 3 */
 
@@ -420,7 +415,7 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pin = RD_Pin|SAMPLE_Pin|RDVEL_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
@@ -442,10 +437,12 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 
     uint8_t data[2];
 
-    double time = -2*3.1415*i/400.f; //10Hz /4/5?
+    time = -2*3.1415*i/400.f; //10Hz /4/5?
 
 
-    inv.voltage_vector.argument = time;
+   inv.voltage_vector.argument = -inv.resolver.vector.argument+M_PI/2;
+//   inv.voltage_vector.argument = -0;
+//    inv.voltage_vector.argument = 0*M_PI;
     inv.voltage_vector.value =1.f;
 
     inv_voltage_vector_apply(&inv,&inv.voltage_vector);
