@@ -129,6 +129,30 @@ OpenLoopInverter.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenLoopInverter.elf.dir/build.make CMakeFiles/OpenLoopInverter.elf.dir/build
 .PHONY : OpenLoopInverter.elf/fast
 
+Core/Src/PID.obj: Core/Src/PID.c.obj
+.PHONY : Core/Src/PID.obj
+
+# target to build an object file
+Core/Src/PID.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenLoopInverter.elf.dir/build.make CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.obj
+.PHONY : Core/Src/PID.c.obj
+
+Core/Src/PID.i: Core/Src/PID.c.i
+.PHONY : Core/Src/PID.i
+
+# target to preprocess a source file
+Core/Src/PID.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenLoopInverter.elf.dir/build.make CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.i
+.PHONY : Core/Src/PID.c.i
+
+Core/Src/PID.s: Core/Src/PID.c.s
+.PHONY : Core/Src/PID.s
+
+# target to generate assembly for a file
+Core/Src/PID.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenLoopInverter.elf.dir/build.make CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.s
+.PHONY : Core/Src/PID.c.s
+
 Core/Src/inverter.obj: Core/Src/inverter.c.obj
 .PHONY : Core/Src/inverter.obj
 
@@ -770,6 +794,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OpenLoopInverter.elf"
+	@echo "... Core/Src/PID.obj"
+	@echo "... Core/Src/PID.i"
+	@echo "... Core/Src/PID.s"
 	@echo "... Core/Src/inverter.obj"
 	@echo "... Core/Src/inverter.i"
 	@echo "... Core/Src/inverter.s"

@@ -69,10 +69,24 @@ include CMakeFiles/OpenLoopInverter.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 
+CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
+CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.obj: ../Core/Src/PID.c
+CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/PID.c
+
+CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/PID.c > CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.i
+
+CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/PID.c -o CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.s
+
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj: ../Core/Src/inverter.c
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/inverter.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.s: cmake_force
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/main.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: ../Core/Src/stm32l4xx_hal_msp.c
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/stm32l4xx_hal_msp.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.s: cmake_force
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_it.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_it.c.obj: ../Core/Src/stm32l4xx_it.c
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_it.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_it.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_it.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_it.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_it.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/stm32l4xx_it.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_it.c.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_it.c.s: cmake_force
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/syscalls.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/syscalls.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/syscalls.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/syscalls.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/sysmem.c.obj: ../Core/Src/sysmem.c
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/sysmem.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/sysmem.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/sysmem.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/sysmem.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/system_stm32l4xx.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/system_stm32l4xx.c.obj: ../Core/Src/system_stm32l4xx.c
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/system_stm32l4xx.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/system_stm32l4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/system_stm32l4xx.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/system_stm32l4xx.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/system_stm32l4xx.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/system_stm32l4xx.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/system_stm32l4xx.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/system_stm32l4xx.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/system_stm32l4xx.c.s: cmake_force
 
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Startup/startup_stm32l432kcux.s.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Startup/startup_stm32l432kcux.s.obj: ../Core/Startup/startup_stm32l432kcux.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/OpenLoopInverter.elf.dir/Core/Startup/startup_stm32l432kcux.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/OpenLoopInverter.elf.dir/Core/Startup/startup_stm32l432kcux.s.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/OpenLoopInverter.elf.dir/Core/Startup/startup_stm32l432kcux.s.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Core/Startup/startup_stm32l432kcux.s
 
 CMakeFiles/OpenLoopInverter.elf.dir/Core/Startup/startup_stm32l432kcux.s.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Startup/startup_stm32l432kcux.s.s: cmak
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.i: cmake_force
@@ -225,7 +239,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.i: cmake_force
@@ -239,7 +253,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.i: cmake_force
@@ -253,7 +267,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.i: cmake_force
@@ -267,7 +281,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.i: cmake_force
@@ -281,7 +295,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -295,7 +309,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.i: cmake_force
@@ -309,7 +323,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.i: cmake_force
@@ -323,7 +337,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.i: cmake_force
@@ -337,7 +351,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.i: cmake_force
@@ -351,7 +365,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.i: cmake_force
@@ -365,7 +379,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c.i: cmake_force
@@ -379,7 +393,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c.i: cmake_force
@@ -393,7 +407,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.i: cmake_force
@@ -407,7 +421,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.i: cmake_force
@@ -421,7 +435,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i: cmake_force
@@ -435,7 +449,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/flags.make
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: CMakeFiles/OpenLoopInverter.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj -MF CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj.d -o CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj -c /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c
 
 CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i: cmake_force
@@ -448,6 +462,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_h
 
 # Object files for target OpenLoopInverter.elf
 OpenLoopInverter_elf_OBJECTS = \
+"CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.obj" \
 "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj" \
 "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj" \
@@ -479,6 +494,7 @@ OpenLoopInverter_elf_OBJECTS = \
 # External object files for target OpenLoopInverter.elf
 OpenLoopInverter_elf_EXTERNAL_OBJECTS =
 
+OpenLoopInverter.elf: CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.obj
 OpenLoopInverter.elf: CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj
 OpenLoopInverter.elf: CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj
 OpenLoopInverter.elf: CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
@@ -508,7 +524,7 @@ OpenLoopInverter.elf: CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_
 OpenLoopInverter.elf: CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj
 OpenLoopInverter.elf: CMakeFiles/OpenLoopInverter.elf.dir/build.make
 OpenLoopInverter.elf: CMakeFiles/OpenLoopInverter.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking C executable OpenLoopInverter.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking C executable OpenLoopInverter.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenLoopInverter.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/OpenLoopInverter.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/michal/Desktop/Projects/OpenLoopInverter/cmake-build-debug/OpenLoopInverter.bin"

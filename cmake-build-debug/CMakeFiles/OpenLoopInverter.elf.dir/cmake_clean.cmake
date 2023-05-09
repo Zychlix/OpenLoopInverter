@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.obj"
+  "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.obj.d"
   "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj"
   "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj.d"
   "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj"

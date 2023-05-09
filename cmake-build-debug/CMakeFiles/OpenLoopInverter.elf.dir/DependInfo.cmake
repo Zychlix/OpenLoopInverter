@@ -30,6 +30,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/PID.c" "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.obj" "gcc" "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/PID.c.obj.d"
   "/home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/inverter.c" "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj" "gcc" "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj.d"
   "/home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/main.c" "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj.d"
   "/home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/stm32l4xx_hal_msp.c" "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj" "gcc" "CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj.d"

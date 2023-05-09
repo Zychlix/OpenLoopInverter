@@ -1,6 +1,5 @@
-CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj: \
- /home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/main.c \
- /home/michal/Desktop/Projects/OpenLoopInverter/Core/Inc/main.h \
+CMakeFiles/OpenLoopInverter.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: \
+ /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c \
  /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  /home/michal/Desktop/Projects/OpenLoopInverter/Core/Inc/stm32l4xx_hal_conf.h \
  /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
@@ -38,22 +37,4 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/main.c.obj: \
  /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim.h \
  /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_tim_ex.h \
  /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
- /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
- /home/michal/Desktop/Projects/OpenLoopInverter/Core/Inc/inverter.h \
- /usr/arm-none-eabi/include/math.h /usr/arm-none-eabi/include/sys/reent.h \
- /usr/arm-none-eabi/include/_ansi.h /usr/arm-none-eabi/include/newlib.h \
- /usr/arm-none-eabi/include/sys/config.h \
- /usr/arm-none-eabi/include/machine/ieeefp.h \
- /usr/arm-none-eabi/include/sys/_types.h \
- /usr/arm-none-eabi/include/machine/_types.h \
- /usr/arm-none-eabi/include/sys/lock.h \
- /usr/arm-none-eabi/include/sys/cdefs.h \
- /usr/arm-none-eabi/include/_ansi.h \
- /usr/lib/gcc/arm-none-eabi/12.2.0/include/stdbool.h \
- /usr/arm-none-eabi/include/string.h \
- /usr/arm-none-eabi/include/sys/_locale.h \
- /usr/arm-none-eabi/include/strings.h \
- /usr/arm-none-eabi/include/sys/string.h \
- /usr/arm-none-eabi/include/stdio.h \
- /usr/lib/gcc/arm-none-eabi/12.2.0/include/stdarg.h \
- /usr/arm-none-eabi/include/sys/stdio.h
+ /home/michal/Desktop/Projects/OpenLoopInverter/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h

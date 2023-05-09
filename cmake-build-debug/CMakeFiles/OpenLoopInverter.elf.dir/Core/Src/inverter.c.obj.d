@@ -47,4 +47,7 @@ CMakeFiles/OpenLoopInverter.elf.dir/Core/Src/inverter.c.obj: \
  /usr/arm-none-eabi/include/machine/_types.h \
  /usr/arm-none-eabi/include/sys/lock.h \
  /usr/arm-none-eabi/include/sys/cdefs.h \
- /usr/arm-none-eabi/include/_ansi.h
+ /usr/arm-none-eabi/include/_ansi.h \
+ /usr/lib/gcc/arm-none-eabi/12.2.0/include/stdbool.h \
+ /home/michal/Desktop/Projects/OpenLoopInverter/Core/Inc/resolver.h \
+ /home/michal/Desktop/Projects/OpenLoopInverter/Core/Inc/main.h

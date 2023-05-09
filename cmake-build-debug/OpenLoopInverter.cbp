@@ -96,16 +96,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Core/Inc/PID.h">
+			<Option target="OpenLoopInverter.elf"/>
+		</Unit>
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Core/Inc/inverter.h">
 			<Option target="OpenLoopInverter.elf"/>
 		</Unit>
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Core/Inc/main.h">
 			<Option target="OpenLoopInverter.elf"/>
 		</Unit>
+		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Core/Inc/resolver.h">
+			<Option target="OpenLoopInverter.elf"/>
+		</Unit>
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Core/Inc/stm32l4xx_hal_conf.h">
 			<Option target="OpenLoopInverter.elf"/>
 		</Unit>
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Core/Inc/stm32l4xx_it.h">
+			<Option target="OpenLoopInverter.elf"/>
+		</Unit>
+		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/PID.c">
 			<Option target="OpenLoopInverter.elf"/>
 		</Unit>
 		<Unit filename="/home/michal/Desktop/Projects/OpenLoopInverter/Core/Src/inverter.c">
