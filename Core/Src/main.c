@@ -145,6 +145,13 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+      printf("Odczyt pos: %d\r\n vel: %d \r\n", inv.resolver.position, inv.resolver.speed);
+      uint8_t data;
+      if(HAL_UART_Receive(&huart2,&data,1,10) == HAL_OK)
+      {
+          if(data == 'w')  counter++;
+      }
+      HAL_Delay(10);
 
   }
   /* USER CODE END 3 */
@@ -440,7 +447,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     time = -2*3.1415*i/400.f; //10Hz /4/5?
 
 
-   inv.voltage_vector.argument = -inv.resolver.vector.argument+M_PI/2;
+   inv.voltage_vector.argument = -inv.resolver.vector.argument+M_PI/2+0.1;
 //   inv.voltage_vector.argument = -0;
 //    inv.voltage_vector.argument = 0*M_PI;
     inv.voltage_vector.value =1.f;
